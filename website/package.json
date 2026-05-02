@@ -3,9 +3,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "build:wasm": "bash ../platforms/web/build.sh",
-    "build": "astro build",
+    "dev": "node init && astro dev",
+    "build:wasm": "node init && bash ../platforms/web/build.sh",
+    "build": "node init && astro build",
     "postbuild": "node scripts/verify-dist-wasm.mjs",
     "preview": "astro preview"
   },

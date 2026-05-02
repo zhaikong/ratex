@@ -65,3 +65,4 @@ platforms/react-native/ios/Pods/
 
 # Downloaded CJK test fonts
 NotoSansSC-Regular.ttf
+config.bat
